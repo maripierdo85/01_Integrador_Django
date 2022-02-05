@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "shop/base.html" %}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>        
+        {% block title %}
+            Indumentaria Online
+        {% endblock %}
+    </title>
+</head>
+<body>
+    {% block content %}
+        <h1>¡Bienvenido a nuestro Sitio!</h1>
+        <a href="{% url 'contacto_2' %}">Ir a contacto</a>
+    {% endblock %}
+</body>
+</html>
